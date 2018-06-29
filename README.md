@@ -10,13 +10,13 @@ compile 'com.squareup.okhttp3:okhttp:3.10.0'
 
 在DUG中无法查看
 RequestBody body = RequestBody.create(JSON, json);
-的body 数据。
+封装的数据。
 
 将之替换成：
 RequestBody requestBodyPost = new FormBody.Builder()
-.add("code", "0")
-.add("msg", "哈哈")
-.add("time", "1530256032")
-.build();
+ .add("code", "0")
+ .add("msg", "哈哈")
+ .add("time", "1530256032")
+ .build();
 
 可视的post入参
