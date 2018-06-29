@@ -1,5 +1,5 @@
 # MyOkHttpDemo
-OkHttp使用简单代码
+ OkHttp使用简单代码
 ---
 
 ### 加载依赖包
@@ -15,7 +15,7 @@ compile 'com.squareup.okhttp3:okhttp:3.10.0'
    在DUG中无法查看
   </div>
   <div>
-   `RequestBody body = RequestBody.create(JSON, json);`
+   RequestBody body = RequestBody.create(JSON, json);
   </div>
   <div>
    封装的数据。
