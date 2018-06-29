@@ -14,9 +14,9 @@ RequestBody body = RequestBody.create(JSON, json);
 
 将之替换成：
 RequestBody requestBodyPost = new FormBody.Builder()
-                .add("code", "0")
-                .add("msg", "哈哈")
-                .add("time", "1530256032")
-                .build();
+.add("code", "0")
+.add("msg", "哈哈")
+.add("time", "1530256032")
+.build();
 
 可视的post入参
