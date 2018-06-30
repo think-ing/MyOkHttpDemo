@@ -25,7 +25,7 @@ compile 'com.squareup.okhttp3:okhttp:3.10.0'
    <br />
   </div>
   <div>
-   将之替换成：
+   将之替换成传递键值对参数：
   </div>
   <div>
    RequestBody requestBodyPost = new FormBody.Builder()
@@ -46,7 +46,7 @@ compile 'com.squareup.okhttp3:okhttp:3.10.0'
    &nbsp;
   </div>
   <div>
-   传递键值对参数
+   
   </div>
 
 <div>
