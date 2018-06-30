@@ -48,3 +48,9 @@ compile 'com.squareup.okhttp3:okhttp:3.10.0'
   <div>
    传递键值对参数
   </div>
+
+<div>
+  进一步使用方法：  
+  
+https://github.com/guozhengXia/OkHttpUtils
+</div>
